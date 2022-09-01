@@ -42,10 +42,7 @@
 			<li>
 				5to video
 				<ul>
-					<li>
-						revertir un commit con $git revert HEAD~1 para ir al
-						commit anterior
-					</li>
+					<li>revertir un commit con para ir al commit anterior</li>
 					<li>$git revert --no-commit HEAD</li>
 				</ul>
 			</li>
@@ -100,6 +97,41 @@
 					<li>
 						$git tag -d (nombre de tag)
 						<span>Elimina el tag nombrado</span>
+					</li>
+					<li>
+						$git tag -a (nombre de tag)
+						<span>Crea un tag anotado</span>
+					</li>
+				</ul>
+			</li>
+			<li>
+				8vo tema
+				<ul>
+					<li>como usar el stash</li>
+					<li>
+						$git stash
+						<span>crea un stash en la rama</span>
+					</li>
+					<li>
+						$git stash list
+						<span>Lista todos los stash hay</span>
+					</li>
+					<li>
+						$git stash apply stash@\{(numero de stash)\}
+						<span>aplica todos lo que estaba en el stash</span>
+						<span>Si no se aclara aplicara el ultimo</span>
+					</li>
+					<li>
+						$git stash drop stash@\{(numero de stash)\}
+						<span>Elimina el stash</span>
+					</li>
+					<li>
+						$git stash save (mensaje que quieras poner)
+						<span>Hace un stash con un mensaje personalizado</span>
+					</li>
+					<li>
+						$git stash pop stash@\{(numero de stash)\}
+						<span>Crea un tag anotado</span>
 					</li>
 				</ul>
 			</li>
